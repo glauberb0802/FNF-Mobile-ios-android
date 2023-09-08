@@ -585,7 +585,7 @@ class PlayState extends MusicBeatState
      creditTxt.text = "PORTED BY\nglauber01";
     creditTxt.setFormat(Paths.font("vcr.ttf"), 30, FlxColor.WHITE, RIGHT, FlxTextBorderStyle.OUTLINE,FlxColor.BLACK);
     creditTxt.scrollFactor.set();
-                uiGroup.add(botplayTxt);;
+                uiGroup.add(botplayTxt);
 		if(ClientPrefs.data.downScroll)
 			botplayTxt.y = timeBar.y - 78;
 
